@@ -3,7 +3,7 @@ from tensorflow.keras import datasets, layers, models
 import matplotlib.pyplot as plt
 import numpy as np
 
-# initialize dataset
+
 (x_train, y_train), (x_test, y_test) = datasets.mnist.load_data()
 
 # Normalize pixel values (0–255 to 0–1)
